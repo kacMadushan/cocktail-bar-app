@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* App wrapper */
+    --wrapper-max-width-wide: 80rem;
+    --wrapper-max-width-narrow: 48.75rem;
+
+    /* App colors */
+    --clr-black: #000000;
+    --clr-white: #ffffff;
+    --clr-light: #B9B7A7;
+
+    /* App font weight */
+    --fw-light: "400";
+    --fw-medium: "500";
+
+    /* App font size */
+    --fs-header1: 3rem;
+    --fs-header2: 2.375rem;
+    --fs-header3: 2rem;
+    --fs-header4: 1.625rem;
+    --fs-header5: 1.125rem;
+    --fs-paragraph: 1rem;
+    --fs-helperText: 0.875rem;
+
+    @media (width > 760px) {
+      --fs-header1: 4rem;
+      --fs-header2: 3rem;
+      --fs-header3: 2.875rem;
+      --fs-header4: 1.625rem;
+      --fs-header5: 1.25rem;
+      --fs-paragraph: 1rem;
+      --fs-helperText: 0.875rem;
+    }
+  }
+}
+
+@layer base {
+  body {
+    @apply font-body font-medium bg-primary;
+  }
+}
+
+@layer utilities {
+  .wrapper {
+    max-width: var(--wrapper-max-width);
+  }
+
+  .wrapper[data-type="narrow"] {
+    --wrapper-max-width: 48.75rem;
+  }
+
+  .wrapper[data-type="wide"] {
+    --wrapper-max-width: 80rem;
+  }
+}
