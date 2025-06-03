@@ -1,4 +1,4 @@
-This application design and developing in using Next Js -  [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). 
+This application design and developing in using Next Js.
 
 ## Overview
 This solution outlines the implementation of a cocktail-themed web application with three primary features: Home, Search, and Favourites.
