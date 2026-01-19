@@ -3,6 +3,10 @@ This application design and developing in using Next Js.
 ## Overview
 This solution outlines the implementation of a cocktail-themed web application with three primary features: Home, Search, and Favourites.
 
+![image alt](https://github.com/kacMadushan/cocktail-bar-app/blob/a1b977313a71ffbc771cc1f63ed105bf8bc53de0/mobile-home.PNG)
+![image alt](https://github.com/kacMadushan/cocktail-bar-app/blob/a1b977313a71ffbc771cc1f63ed105bf8bc53de0/ipad-mini-home.PNG)
+![image alt](https://github.com/kacMadushan/cocktail-bar-app/blob/a1b977313a71ffbc771cc1f63ed105bf8bc53de0/web-home.PNG.PNG)
+
 #### Home: 
 The home page will display a set of 5 random cocktails, each showing the cocktail's name, image, and category. To ensure variety, 5 random cocktails will be fetched by calling the random cocktail API five times, ensuring no duplicates are shown. A "Shake Cocktail" button will be provided, enabling users to load a fresh set of 5 unique cocktails with each click.
 
